@@ -2,19 +2,22 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-center">
-        <Image
-          src="https://seeklogo.com/images/H/harvard-university-logo-D7CC65EE30-seeklogo.com.png"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
+    <div className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col gap-4 row-start-2">
+        <div className="flex flex-col gap-4 row-start-2 items-center sm:items-center">
+          <Image
+            src="https://seeklogo.com/images/H/harvard-university-logo-D7CC65EE30-seeklogo.com.png"
+            alt="Next.js logo"
+            width={120}
+            height={38}
+            priority
+          />
+        </div>
 
-        <h2>Certificate of Sanity & Non-Criminal Status</h2>
-        <h3></h3>
+        <br/><br/>
 
+        <h2><b>Certificate of Sanity & Non-Criminal Status</b></h2>
+        
         <p>
         This is to certify that:<br/><br/>
         
